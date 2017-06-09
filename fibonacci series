@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,n, f1=0, f2=1,sum;
+	cout << "Enter the number of terms ";
+	cin >> n;
+	cout << "The fibonacci series is " << f1 << " " << f2 <<" ";
+	for (i = 1; i <= n; i++)
+		
+	{
+		
+
+		sum = f1 + f2;
+		f1 = f2;
+		f2 = sum;
+		cout << sum << " " ;
+		
+		
+
+	}
+	cout << endl;
+
+	
+}
