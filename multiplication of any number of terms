@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n, sum=1, i,a;
+	
+		cout << "Enter number of terms"<<endl;
+	cin >> n;
+	for (i = 1;i <= n;i++)
+	{
+		cout << "Enter the term no. " <<i<< endl;
+		cin >> a;
+		sum *= a;
+	}
+	cout << "product is " << sum << endl;
+}
